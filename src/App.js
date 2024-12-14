@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Board from './Board/Board';
+import Board from './Components/Board/Board';
 
 
 function App() {
   return (
-    <div className='flex'>
+    <div className='flex items-center justify-center bg-black h-screen w-screen'>
       <Board />
     </div>
   );
